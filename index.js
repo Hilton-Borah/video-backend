@@ -11,7 +11,7 @@ const server = http.createServer(app);
 // Socket.io for chat
 const io = new Server(server, {
   cors: {
-    origin: 'https://video-calling-hai.netlify.app/3000', // Allow React app to connect
+    origin: 'https://video-calling-hai.netlify.app/', // Allow React app to connect
     methods: ['GET', 'POST'],
   },
 });
